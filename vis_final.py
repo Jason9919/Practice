@@ -11,7 +11,7 @@ st.set_page_config(
     page_icon = '	:globe_with_meridians:',
     layout = 'wide'
 )
-df = pd.read_csv('/content/world_population.csv')
+df = pd.read_csv('world_population.csv')
 
 with st.sidebar:
   st.title(':globe_with_meridians: Geospatial Dashboard')
